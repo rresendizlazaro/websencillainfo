@@ -355,6 +355,10 @@ footer #design h4{
         transform: none;
     }
 
+    .images .container #imgcontainer{
+        background: black;
+    }
+
     .images .container #imgcontainer .singleimg{
         width: 100%;
     }
@@ -379,6 +383,14 @@ footer #design h4{
 }
 
 @media screen and (max-width: 450px){
+    header .bar #ps{
+        margin-left: 50px;
+    }
+
+    .btn-menu{
+        margin-right: 50px;
+    }
+    
     header .logo img{
         width: 200px;
     }
@@ -394,14 +406,6 @@ footer #design h4{
 }
 
 @media screen and (max-width: 380px){
-    header .bar #ps{
-        margin-left: 50px;
-    }
-
-    .btn-menu{
-        margin-right: 50px;
-    }
-
     .about .container .photo img{
         width: 200px;
     }
