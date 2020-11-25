@@ -189,6 +189,7 @@ header .logo img{
 .images .container #imgcontainer .singleimg:hover .description{
     color: white;
     background: black;
+    opacity: 0.7;
 }
 
 .buy .container{
